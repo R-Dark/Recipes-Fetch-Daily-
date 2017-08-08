@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  border-style: solid;
+  border-color: #a7afb2;
+  width: 70%;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+#searchBar {
+  font-size: 23px;
+}
+
+#btnSend {
+  font-size: 23px;
+  color: white;
+  background-color: green;
+  border-style: none;
+}
+
+.recipeContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 0 auto;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-right: 75px;
+  padding-left: 75px;
+  padding-bottom: 40px;
+  width: 200px;
+  margin: 0 auto;
+}
